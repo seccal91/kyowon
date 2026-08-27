@@ -1,0 +1,9 @@
+{
+  "name": "review-event-public",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "build": "echo 'Static site ready for deployment'"
+  }
+}
