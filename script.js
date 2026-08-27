@@ -25,7 +25,7 @@ if (goToNaverButton) {
     confirmButton.textContent = '확인';
 
     confirmButton.addEventListener('click', () => {
-      window.open('https://m.place.naver.com/my', '_blank', 'noopener,noreferrer');
+      window.open('https://m.place.naver.com/my/checkin', '_blank', 'noopener,noreferrer');
       overlay.remove();
     });
 
